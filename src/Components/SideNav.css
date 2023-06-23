@@ -1,0 +1,80 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sidenav-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  border-right: 1px solid #cccccc;
+  height: 100%;
+  overflow: scroll;
+  width: 20%;
+  /* max-width: 200px; */
+}
+
+.sidenav-container::-webkit-scrollbar {
+  display: none;
+}
+
+.sidenav-insta-img {
+  height: 100px;
+  width: 100px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.sidenav-list {
+  list-style-type: none;
+  padding-left: 0px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sidenav-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  justify-self: flex-end;
+}
+
+.sidenav-item-name {
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-top: 12px;
+  color: black;
+  /* font-weight: 700; */
+}
+
+.sidenav-icon {
+  height: 28px;
+  width: 28px;
+  margin-right: 5px;
+  color: black;
+}
+
+.profile-image {
+  height: 35px;
+  width: 35px;
+  border-radius: 17px;
+}
+
+.active-tab-name {
+  font-weight: 700;
+}
+
+.outlet-container {
+  height: 100vh;
+  width: 80%;
+  overflow: auto;
+}

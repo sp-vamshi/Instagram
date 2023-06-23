@@ -1,0 +1,89 @@
+.opened-story-card {
+  height: 96%;
+  width: 90%;
+  background: radial-gradient(#fdf497, #fdf497, #fd5949, #ff4d4d, #ff8533);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  margin-right: 20px;
+  max-width: 420px;
+  position: relative;
+  transition: 0.5s;
+  -webkit-animation-name: zoom;
+  animation-name: zoom;
+}
+
+.no-left-stories {
+  margin-left: 500px;
+  transition: 0.5s;
+  -webkit-animation-name: zoom;
+  animation-name: zoom;
+}
+.no-right-stories {
+  margin-right: 500px;
+  background-color: red;
+  padding: 10px;
+  transition: 0.5s;
+  -webkit-animation-name: zoom;
+  animation-name: zoom;
+}
+
+.other-story-cards {
+  height: 50%;
+  /* width: 70%; */
+  width: 45%;
+  background: radial-gradient(#fdf497, #fdf497, #fd5949, #ff4d4d, #ff8533);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  margin-right: 20px;
+  transition: 0.5s;
+  -webkit-animation-name: zoom;
+  animation-name: zoom;
+}
+
+.story-user-profile-name-image-container {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.user-story-profile-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.opened-story-image {
+  height: 80%;
+  width: 90%;
+  border-radius: 2px;
+}
+
+.stories-modal {
+  max-width: 90%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.stories-modal::-webkit-scrollbar {
+  display: none;
+}
+
+.story-arrow-icon {
+  margin-right: 20px;
+  color: white;
+  width: 95px;
+  height: 95px;
+  cursor: pointer;
+}
